@@ -23,7 +23,7 @@ steps:
 - task: CopyFiles@2
   inputs:
     Contents: '**/'
-    TargetFolder: '$(build.artifactstagingdirectory)'
+    TargetFolder: 'home/vsts/work/1/s'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
